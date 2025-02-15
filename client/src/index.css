@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:wght@300&display=swap');
+
+
+/* font-family: "Poppins", serif; */
+/* font-family: "Playfair Display", serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav barcss */
+
+.navbar {
+    font-family: "Poppins", serif;
+    text-transform: uppercase;
+    line-height: 26px;
+    font-size: 17px;
+    box-shadow: 0 8px 6px -6px gray;
+    --webkit-box-shadow: 0 8px 6px -6px gray;
+    border-bottom: 0px solid gray !important;
+}
+
+.nav-link {
+    font-weight: 300 !important;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+.product-link {
+    text-decoration: none;
+    color: black !important;
+}
+
+
+
+.navbar-brand {
+    font-weight: 700;
+    font-family: 'roboto', 'sans-serif';
+}
+
+.footer {
+    color: white;
+    padding: 25px;
+    background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+.footer a:hover {
+    color: #ffefba;
+    border-bottom: 1px solid #ffefba;
+}
+
+.pnf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 65vh;
+    flex-direction: column;
+}
+
+.pnf-title {
+    font-size: 100px;
+    font-weight: 700;
+
+}
+
+.pnf-heading {
+    font-weight: normal;
+}
+
+.pnf-btn {
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.pnf-btn:hover {
+    transform: translateY(-10px);
+}
+
+.regsiter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+}
